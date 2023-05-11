@@ -1,0 +1,40 @@
+***************************************
+* Ball - Game & Watch Simulator	      *	
+***************************************
+* Version 1.5 (Beta) - August 18,1999 *
+* by Steve Ellenoff		      *
+* Email: sellenoff@hotmail.com	      *
+***************************************
+
+What's New?:
+------------
+
+Version 1.5 Beta - August 18,1999
+---------------------------------
+
+-Game play/design issues adjusted to match the real game:
+	 1) Adjusted ball speed ups to occur while balls are in air, rather than when caught.
+	 2) Adjusted ball movement so that balls do not immediately reverse direction when caught.
+	 3) Modified Game logic so that Game "A" only uses 2 balls.
+	 4) Modified Scoring so that A scores 1 point per catch, B scores 10.
+	 5) Removed "AM" & "PM" & ":" graphics, they are not part of the original lcd.
+	 6) Increased responsiveness of Left & Right buttons, should be able to move the arms
+	    faster now.
+	 7) Ball starting positions now correct.
+	 8) Adjust ball speed ups based on sequential scoring to be closer to real game.
+	 9) High Scores only displayed when holding either Game "A" or Game "B" button.
+	10) Added Set Time Mode after a Reset Button is pressed.
+	11) Adjusted Time Logic to keep accurate time based on the time set even if different 
+	    from computer's time.
+-Added more keyboard commands so user never has to use mouse.
+-Fixed Bug when flipping from back view to front view.
+-Fixed NoSound bug in Game B mode.
+-Fixed Game A,B,Time buttons reseting games, while in progress!
+-Rewrote Ball Movement & Collision Detection code, it was a mess.
+-Rewrote Ball Imaging Routine to reduce constant flicker! (Still not perfect, never will be!)
+
+
+Version 1.0 Beta - August 05,1999
+---------------------------------
+-First public release of the G&W Sim!
+-Based on my memory and some guessing for the game logic!
